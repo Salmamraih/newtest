@@ -1,0 +1,365 @@
+html{
+
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: xX-large;
+
+}
+
+h2{
+
+    text-align: center;
+    text-size-adjust: 50%;
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 10%;
+    font-size:200%
+      
+}
+
+h3{
+
+    text-align: center;
+    text-size-adjust: 50%;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+
+/*stylling the navigation bar */
+
+.page-nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    
+}
+
+.page-nav li{
+list-style: none;
+
+}
+.page-nav a{
+text-decoration: none;
+color:grey;
+
+}
+
+
+.para-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.para-1 img{ 
+    max-width: 80%;
+    height: auto;
+    padding-left: 80px;
+}
+
+
+
+/*styling of the history page*/
+
+.historyrow {
+    display: flex;
+    margin-top: 30px;
+}
+
+.historyrow .col-4{
+
+    justify-content: space-between;
+}
+.historyrow1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    margin-top: 10%;
+}
+
+.col-3 img {
+    max-width: 100%;
+    height: auto;
+}
+.col-3 p {
+    
+    padding-left: 5%
+
+}
+
+
+.col-4 {
+    position: relative;
+    flex-basis: 30%;
+    align-items: center;
+    padding: 3%;
+    padding-left: 4%;
+    
+    
+}
+
+.col-4 img {
+    width: 300px;
+}
+
+.container-101{
+    justify-items: center;
+    align-items: center;
+    padding-left: 7%;
+    gap: 30%;
+    
+}
+.container-101 h3{
+ text-align: center;
+
+}
+
+.container-101 .col-4 p{
+    font-size:medium;
+
+}
+
+
+/*Stylling the artist page */ 
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    column-gap: 100px;
+   
+ }
+
+
+ .col-1 {
+    flex-basis: 30%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.col-1 h2 {
+    font-size: 54px;
+    color: rgb(63, 63, 63);
+    text-align: center;
+}
+
+.col-2 {
+    position: relative;
+    flex-basis: 30%;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 10%;
+}
+
+.col-2 img {
+    height:  300px;
+
+}
+
+.col-2 p {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.row p {
+
+    font-size: medium;
+}
+.col-1 p {
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: medium;  
+}
+.col-2 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.col-1 h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.col-1 img {
+    
+    height:  300px;
+}
+
+
+/*Stylling the Home page */ 
+
+.para-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    margin-top: 10%;
+
+}
+
+.para-1 p{
+font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: xX-large;
+padding-left: 10%;
+}
+
+
+@media only screen and (max-width:700px) {
+
+
+    
+    .row {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    h2 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .historyrow{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    h2 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+    
+    
+
+    .col-3 p{
+
+        font-size: medium;
+    }
+
+    .col-3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .col-3 img{
+        margin-left: 30%;
+        max-width: 50%;
+        height: auto;
+
+
+    }
+    .container-101{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3em;
+    }
+    .para-1{
+       
+            display: grid;
+            grid-template-columns: 1fr;
+        
+    }
+    .para-1 p{
+        font-size: medium;
+    }
+
+    .para-1 img{
+        margin-left: -10%;
+    
+    }
+
+    .page-nav ul{
+        display: grid;
+        grid-template-columns: 1fr ; 
+        font-size: large;   
+    }
+  
+    
+
+}
+
+@media only screen and (max-width:480px) {
+
+body{
+    background-color: rgb(27, 114, 114);
+
+
+}
+    
+    .row {
+        display: grid;
+       grid-template-columns: 1fr;
+    }
+
+    h2 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+
+    .historyrow{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    h2 {
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+    
+    
+
+    .col-3 p{
+
+        font-size: medium;
+    }
+
+    .col-3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .col-3 img{
+        margin-left: 30%;
+        max-width: 50%;
+        height: auto;
+
+
+    }
+    .container-101{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3em;
+    }
+    .para-1{
+            display: grid;
+            grid-template-columns: 1fr;
+        
+    }
+    .para-1 p{
+        font-size: medium;
+    }
+
+    .para-1 img{
+        margin-left: -10%;
+    
+    }
+
+    .page-nav ul{
+        display: grid;
+        grid-template-columns: 1fr ; 
+        font-size: large;   
+    }
+  
+    
+
+}
